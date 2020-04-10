@@ -1,12 +1,6 @@
 const linksCtrl = {};
 
 const pool = require('../database');
-const dapi = require('../../back-end/APIwebsocket');
-
-directories.renderDirectory = async (req, res) => {
-    
-    res.render('links/list')
-}
 
 linksCtrl.renderAddLink = (req, res) => {
     res.render('links/add');
