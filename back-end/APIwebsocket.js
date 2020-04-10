@@ -1,4 +1,4 @@
-var socket = new WebSocket('url');
+var socket = new WebSocket('http://localhost:4000/links');
 socket.onopen = function () {
 	console.log('Connected!');
 };
