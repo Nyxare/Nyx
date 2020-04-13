@@ -2,11 +2,11 @@ const linksCtrl = {};
 
 const pool = require('../database');
 
-linksCtrl.renderAddLink = (req, res) => {
-    res.render('links/add');
+linksCtrl.renderAddFriend = (req, res) => {
+    res.render('friends/addfriend');
 };
 
-linksCtrl.addLink = async (req, res) => {
+linksCtrl.addFriend = async (req, res) => {
     const {url} = req.body;
 
     const newLink = {

@@ -13,7 +13,7 @@ passport.use(
       passReqToCallback: true
     },
     async (req, username, password, done) => {
-      const rows = await pool.query("SELECT * FROM Usuario WHERE userID = ?", [
+      const rows = await pool.query("SELECT * FROM Usuario WHERE username = ?", [
         username
       ]);
       if (rows.length > 0) {
@@ -31,7 +31,7 @@ passport.use(
         return done(
           null,
           false,
-          req.flash("message", "The Username does not exists.")
+          req.flash("message", "The Username does not exist.")
         );
       }
     }
@@ -62,7 +62,7 @@ passport.use(
 );
 
 passport.serializeUser((user, done) => {
-  done(null, user.id);
+  done(null, user.userID);
 });
 
 passport.deserializeUser(async (id, done) => {

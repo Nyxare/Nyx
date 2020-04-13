@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use(session({
-  secret: 'faztmysqlnodemysql',
+  secret: 'Nyx',
   resave: false,
   saveUninitialized: false,
   store: new MySQLStore(database)
@@ -53,7 +53,7 @@ app.use((req, res, next) => {
 app.use(require('./routes/index.routes'));
 app.use(require('./routes/auth.routes'));
 app.use(require('./routes/user.routes'));
-app.use('/links', require('./routes/links.routes'));
+app.use('/list', require('./routes/list.routes'));
 
 // Public
 app.use(express.static(path.join(__dirname, 'public')));
