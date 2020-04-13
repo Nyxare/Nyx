@@ -16,7 +16,7 @@ linksCtrl.addFriend = async (req, res) => {
     };
     await pool.query('INSERT INTO Directories set ?', [newLink]);
     req.flash('success', 'Link Saved Successfully');
-    res.redirect('/links');
+    res.redirect('/list');
 }
 
 linksCtrl.renderLinks = async (req, res) => {
@@ -28,7 +28,7 @@ linksCtrl.deleteLink = async (req, res) => {
     const { id } = req.params;
     await pool.query('DELETE FROM Directories WHERE connectionID = ?', [id]);
     req.flash('success', 'Link Removed Successfully');
-    res.redirect('/links');
+    res.redirect('/list');
 };
 
 linksCtrl.renderEditLink = async (req, res) => {
