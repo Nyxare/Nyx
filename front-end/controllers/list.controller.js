@@ -1,18 +1,40 @@
+"use scrict";
 const linksCtrl = {};
 
 const pool = require('../database');
+const fetch = require("node-fetch");
 
 linksCtrl.renderAddDirectory = (req, res) => {
     res.render('list/add');
 };
 
 linksCtrl.addDirectory = async (req, res) => {
-    const {url} = req.body;
+
+    let jsonfolders, jsonfiles = [];
+    let mainObject = {};
+
+    let showObject = function() {
+        for (let prop in mainObj) {
+            console.log(prop);
+            console.log(mainObject[prop]);
+        };
+    }
+
+    fetch("./data.json")
+    .then(function(resp){
+        return resp.json();
+    })
+    .then(function(data){
+        console.log(data);
+        jsonfolders = data.Directorios;
+        jsonfiles = data.Files;
+        mainObject = data;
+        showObject();
+    });
 
     const newLink = {
         id: req.user.id,
-        url,
-        connectionID: id+url
+        userJSON
     };
     await pool.query('INSERT INTO Directories set ?', [newLink]);
     req.flash('success', 'Link Saved Successfully');

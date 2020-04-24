@@ -13,6 +13,9 @@ const { database } = require('./keys');
 // Intializations
 const app = express();
 require('./lib/passport');
+var server = require('http').Server(app);
+var io = require('socket.io')(server);
+
 
 // Settings
 app.set('port', process.env.PORT || 4000);
@@ -59,3 +62,7 @@ app.use('/list', require('./routes/list.routes'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 module.exports = app;
+
+server.listen(8081, function() {
+  console.log("servidor corriendo en http://localhost:8081");
+});

@@ -35,7 +35,7 @@ linksCtrl.renderEditLink = async (req, res) => {
     const { id } = req.params;
     const links = await pool.query('SELECT * FROM Directories WHERE connectionID = ?', [id]);
     console.log(links);
-    res.render('links/edit', {link: links[0]});
+    res.render('list/edit', {link: links[0]});
 };
 
 linksCtrl.editLink = async (req,res) => {

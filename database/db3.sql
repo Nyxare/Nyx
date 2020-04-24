@@ -1,0 +1,25 @@
+CREATE DATABASE NyxDB;
+
+USE NyxDB;
+
+CREATE TABLE Usuario (
+    userID INT(11) NOT NULL AUTO_INCREMENT,
+    username VARCHAR(25) NOT NULL,
+    password VARCHAR(60) NOT NULL,
+    CONSTRAINT PK_UserID PRIMARY KEY (userID)
+);
+
+CREATE TABLE Friends (
+    User1 INT(11) NOT NULL,
+    User2 INT(11) NOT NULL,
+    CONSTRAINT PK_Friends PRIMARY KEY (User1, User2),
+    CONSTRAINT FK_User1 FOREIGN KEY (User1) REFERENCES Usuario(userID),
+    CONSTRAINT FK_User2 FOREIGN KEY (User2) REFERENCES Usuario(userID)
+);
+
+CREATE TABLE Directories (
+    userID INT(11) NOT NULL,
+    userJSON JSON,
+    CONSTRAINT PK_id_username_userJSON PRIMARY KEY (userID),
+    CONSTRAINT FK_userID FOREIGN KEY (userID) REFERENCES Usuario (userID)
+);
