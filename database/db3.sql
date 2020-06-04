@@ -19,7 +19,8 @@ CREATE TABLE Friends (
 
 CREATE TABLE Directories (
     userID INT(11) NOT NULL,
-    userJSON JSON,
+    NombreDirectorio VARCHAR(200) NOT NULL,
+    userJSON LONGBLOB,
     CONSTRAINT PK_id_username_userJSON PRIMARY KEY (userID),
     CONSTRAINT FK_userID FOREIGN KEY (userID) REFERENCES Usuario (userID)
 );

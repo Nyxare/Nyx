@@ -7,14 +7,16 @@ const passport = require('passport');
 const flash = require('connect-flash');
 const MySQLStore = require('express-mysql-session')(session);
 const bodyParser = require('body-parser');
-
+const upload = require('express-fileupload');
+const fs = require('fs');
+const docxConverter = require('docx-pdf');
 const { database } = require('./keys');
 
 // Intializations
 const app = express();
+app.use(express.json());
 require('./lib/passport');
 var server = require('http').Server(app);
-var io = require('socket.io')(server);
 
 
 // Settings
@@ -31,8 +33,10 @@ app.set('view engine', '.hbs');
 
 // Middlewares
 app.use(morgan('dev'));
-app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(upload());
+
 
 app.use(session({
   secret: 'Nyx',
@@ -57,12 +61,14 @@ app.use(require('./routes/index.routes'));
 app.use(require('./routes/auth.routes'));
 app.use(require('./routes/user.routes'));
 app.use('/list', require('./routes/list.routes'));
+app.use('/friends', require('./routes/friends.routes'));
 
 // Public
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 module.exports = app;
 
 server.listen(8081, function() {
-  console.log("servidor corriendo en http://localhost:8081");
+  console.log("server running in http://localhost:8081");
 });

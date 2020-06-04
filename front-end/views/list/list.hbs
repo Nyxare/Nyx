@@ -1,92 +1,48 @@
 <div class="container p-4">
-    <script src="/socket.io/socket.io.js"></script>
-    <script type="text/javascript">
-        var socket = io.connect('http://localhost:8087', {'forceNew': true});
-        socket.on('messages', function(data) {
-            console.log(data);
-        });
-    </script>
     <div class="row">
-        <h3>Files</h3>
-        <p id="Files">Files</p>
-        <h3>Directories</h3>
-        <p id="Directorios"></p> 
-        <script> 
-        var filestring = ""; 
-        var DataFiles = {
-            "Files":[
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\5777954_estadoarte.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre1.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre10.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre11.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre12.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre13.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre14.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre15.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre16.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre17.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre18.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre19.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre2.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre3.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre4.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre5.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre6.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre7.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre8.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\citre9.pdf",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\start.lnk",
-            "C:\\Users\\Ayano\\Downloads\\Thesis\\szapplet.lnk"
-        ]};
-        for (i in DataFiles.Files) { 
-            filestring += DataFiles.Files[i] + "<br/>"; 
-        }
-        document.getElementById("Files").innerHTML = filestring;
-
-
-        var dirstring = "";
-        var DataDir = {
-            "Directorios": [
-                "C:\\Users\\Ayano\\Downloads\\Thesis\\arrozconleche"
-            ]
-        };
-        for (i in DataDir.Directorios) { 
-            dirstring += DataDir.Directorios[i] + "<br/>"; 
-        }
-        document.getElementById("Directorios").innerHTML = dirstring;
-
-</script>
         {{#each list}}
         <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-body">
-
-                    <a href="{{userJSON}}" target="_blank">
+                    
+                    <!--<a href="{{userID}}" target="_blank">-->
+                        <a href="#" target="_blank"></a>
                         <h3 class="card-title text-uppercase">
-                            {{userJSON}}
+                            {{NombreDirectorio}}
                         </h3>
                     </a>
-                    <p class="text-muted">
-                        {{timeago created_at}}
-                    </p>
-                    <a class="btn btn-danger" href="/list/delete/{{id}}">
-                        Delete Link
-                    </a>
-                    <a class="btn btn-secondary" href="/list/edit/{{id}}">
-                        Edit
+                    <a class="btn btn-danger" href="/list/delete/{{NombreDirectorio}}">
+                        Delete Directory
                     </a>
                 </div>
             </div>
         </div>
+    </div><br>
+        <div class="card card-body text-center">
+                <a class="btn btn-secondary" href="/list/add/{{id}}">
+                        Add directory! (Hyperlink to exec program)
+                </a>
+            </div><br>
+            <div class="card card-body text-center">
+                <a class="btn btn-secondary" href="/list/convert">
+                        File converter
+                </a>
+            </div>
         {{else}}
         <div class="col-md-4 mx-auto">
             <div class="card card-body text-center">
                 <p>There are no directories added yet.</p>
                 <a class="btn btn-secondary" href="/list/add/{{id}}">
-                        Add one
-                    </a
+                        Add one (Hyperlink to exec program)
+                </a>
+            </div><br>
+            <div class="card card-body text-center">
+                <a class="btn btn-secondary" href="/list/convert">
+                        File converter
+                </a>
             </div>
         </div>
+        
         {{/each}}
     </div>
 </div>
