@@ -1,0 +1,67 @@
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Watcher.exe.config
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Watcher.exe
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Watcher.pdb
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.csprojAssemblyReference.cache
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.Nyx.resources
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.Properties.Resources.resources
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.csproj.GenerateResource.cache
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.exe
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.pdb
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Buffers.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Memory.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Text.Json.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.ValueTuple.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Buffers.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Memory.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Text.Json.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\System.ValueTuple.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.csproj.CopyComplete
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\MySql.Data.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\MySql.Data.xml
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\obj\Debug\Watcher.Form2.resources
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bryann Torres\3D Objects\Universidad\Arquitectura\Nyx\src\Watcher\Watcher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Watcher.exe.config
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Watcher.exe
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Watcher.pdb
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\MySql.Data.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Buffers.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Memory.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Text.Json.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.ValueTuple.dll
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\MySql.Data.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Buffers.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Memory.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Text.Json.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\bin\Debug\System.ValueTuple.xml
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.csprojAssemblyReference.cache
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.Nyx.resources
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.Form2.resources
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.Properties.Resources.resources
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.csproj.GenerateResource.cache
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.csproj.CoreCompileInputs.cache
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.csproj.CopyComplete
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.exe
+C:\Users\Ayano\Downloads\Watcher\Watcher\obj\Debug\Watcher.pdb
